@@ -300,5 +300,5 @@ function login() {
         alert2.style.visibility = '';
         input2.style.borderBottom = '';
     }
-}x
+}
 
