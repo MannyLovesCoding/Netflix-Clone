@@ -267,7 +267,7 @@ function login() {
         }
     }
 
-    if (input2.value.length < 3 || input2.value.length > 60) {
+    if (input2.value.length < 4 || input2.value.length > 60) {
         invaildPassword = true;
     }
 
