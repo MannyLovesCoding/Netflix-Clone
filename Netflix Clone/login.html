@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Netflix</title>
+    <link rel="icon" href="./resources/imgs/netflix-icon.png">
+    <link rel="stylesheet" href="./resources/css/style.css">
+</head>
+<body id="login-body">
+     <main class="login">
+        <div id="login-concord-gradient" class="concord-img-gradient">
+            <a href="./index.html"><img id="login-netflix-img" class="netflix-img" src="./resources/imgs/netflix-logo.png" alt="Netflix"></a>
+            <div class="login-container">
+                <h1>Sign In</h1>
+                <form>
+                    <input id="emailnphone" type="text" placeholder="Email or phone number">
+                    <p id="login-alert1" class="login-alerts">Please enter a valid email or phone number.</p>
+                    <input id="password"style="margin-bottom: 50px;" type="text" placeholder="Password">
+                    <p id="login-alert2"  class="login-alerts">Your password must contain between 4 and 60 characters.</p>
+                </form>
+                <button id="login-sign-in" style="cursor: pointer;" onclick="login()">Sign In</button>
+                <div style="text-align: left; margin-left: 100px; margin-top: 15px; color:#b3b3b3; display: inline-block; position: relative; right: 170px;">
+                    <input type="checkbox">
+                    <label>Remember me</label>
+                </div>
+                <div class="login-extras">
+                    <a id="need-help-link" href="https://www.netflix.com/ca/LoginHelp">Need help?</a>
+                    <p style="margin-top: 30px;">New to Netflix? <a id="sign-up-now-login" href="./index.html">Sign up now.</a></p>
+                    <p id="page-protection-notice">This page is protected by Google reCAPTCHA to ensure you're not a bot. <span style="cursor: pointer; color: #0071eb;">Learn more.</span></p>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer id="login-footer">
+        <div style="padding-bottom: 0; border-bottom: none; padding-bottom: 50px;" class="concord-img-gradient">
+            <div id="nav-login" class="navigation-links">
+                <h4>Questions? Call <a href="tel:18445424813">1-844-542-4813</a></h4>
+                <div class="link-container">
+                    <ul>
+                        <li><a href="https://help.netflix.com/en/node/412">FAQ</a></li>
+                        <li><a href="#">Cookie Preferences</a></li>
+                    </ul>
+                </div>
+                <div class="link-container">
+                    <ul>
+                        <li><a href="https://help.netflix.com/en/">Help Center</a></li>
+                        <li><a href="https://help.netflix.com/legal/corpinfo">Corporate Information</a></li>
+                    </ul>
+                </div>
+                <div class="link-container">
+                    <ul>
+                        <li style="position: relative; bottom: 30px;"><a href="https://help.netflix.com/legal/termsofuse">Terms of Use</a></li>
+                    </ul>
+                </div>
+                <div class="link-container">
+                    <ul>
+                        <li style="position: relative; bottom: 30px;"><a href="https://help.netflix.com/legal/privacy">Privacy</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div id="login-lang" class="langauge-selector">
+                <img src="./resources/imgs/globe.png" alt="Globe">
+                <p>English</p>
+                <img src="./resources/imgs/arrow-down.png" alt="Arrow Down">
+            </div>
+        </div>
+    </footer>
+    <script src="./resources/scripts/script.js"></script>
+</body>
+</html>

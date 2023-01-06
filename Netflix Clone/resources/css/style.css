@@ -1,0 +1,603 @@
+@font-face {
+    font-family: 'roboto';
+    src: url(../fonts/Roboto-Regular.ttf);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'roboto';
+}
+
+.plan-banner {
+    text-align: center;
+    margin: 20px 0;
+}
+
+.plan-banner span, .plan-banner p, .learn-more-container {
+    display: inline-block;
+}
+
+#new-indicator {
+    background-color: #e50914;
+    border-radius: 10px;
+    padding: 2px 7px;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: white;
+    font-size: 15px;
+}
+
+.plan-banner p {
+    font-size: 18px;
+    color: #333;
+    position: relative;
+    top: 2px;
+    margin-left: 10px;
+}
+
+.learn-more-container a, .learn-more-container p {
+    color: #0071eb;
+    font-weight: bold;
+    margin-left: 15px;
+}
+
+.learn-more-container svg {
+    position: relative;
+    top: 7px;
+}
+
+.learn-more-container p:active, .learn-more-container a:active {
+    color: #89b2de;
+}
+
+.concord-container {
+    background-image: url('../imgs/netflix-background.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    color: white;
+}
+
+.concord-img-gradient {
+    background-image: linear-gradient(0deg,rgba(0,0,0,.8) 0,transparent 60%,rgba(0,0,0,.8));
+    padding-bottom: 240px;
+    border-bottom: 8px solid #222;
+}
+
+.netflix-img {
+    filter: invert(12%) sepia(98%) saturate(4610%) hue-rotate(357deg) brightness(106%) contrast(118%);
+    height: 140px;
+    margin-left: 50px;
+    position: relative;
+    bottom: 10px;
+    float: left;
+}
+.langauge-selector {
+    border: 1px solid white;
+    width: fit-content;
+    border-radius: 2px;
+    padding: 7px 3px;
+    cursor: pointer;
+}
+.langauge-selector img {
+    height: 17px;
+}
+
+.langauge-selector p {
+    display: inline-block;
+    color: white;
+}
+
+#language-globe {
+    position: relative;
+    top: 2px;
+}
+
+#language-arrow-down {
+    position: relative;
+    top: 3px;
+}
+
+#sign-in {
+    text-decoration: none;
+}
+
+#sign-in p {
+    background-color: #e50914;
+    width: fit-content;
+    padding: 7px 12px;
+    color: white;
+    font-size: 20px;
+    border-radius: 3px;
+}
+
+.right-header-buttons {
+    float: right;
+    margin-top: 50px;
+    margin-right: 30px;
+}
+
+.right-header-buttons a, .right-header-buttons .langauge-selector {
+    display: inline-block;
+    margin-right: 25px;
+}
+
+.concord-container h1 {
+    font-size: 55px;
+    width: 540px;
+    margin: 0 auto;
+    padding-top: 250px;
+}
+
+.concord-container h2 {
+    font-weight: normal;
+    font-size: 30px;
+    margin: 15px;
+    margin-bottom: 25px;
+}
+
+#ready-to-watch {
+    font-size: 23px;
+}
+
+.email {
+    font-size: 17px;
+    padding: 20px;
+    padding-bottom: 25px;
+    padding-left: 5px;
+    padding-right: 260px;
+    margin: 10px;
+}
+
+
+.get-started-btn {
+    background-color: #f40612;
+    width: fit-content;
+    display: inline-block;
+    position: relative;
+    right: 14px;
+    padding-right: 15px;
+}
+
+.get-started-btn h2, .get-started-btn svg{
+    display: inline-block;
+    font-size: 25px;
+}
+
+.get-started-btn svg {
+    position: relative;
+    top: 8px;
+}
+
+.get-started-btn h2 {
+    position: relative;
+    top: 5px;
+}
+
+main h1 {
+    font-size: 55px;
+}
+
+main p {
+    font-size: 30px;
+    width: 550px;
+    margin-top: 10px;
+}
+
+section {
+    background-color:#000;
+    color: white;
+}
+
+.tv  {
+    padding-top: 120px;
+    padding-left:70px;
+    padding-bottom: 180px;
+    border-bottom: 8px solid #222;
+}
+
+.tv img {
+    float: right;
+    position: relative;
+    bottom: 250px;
+    height: 400px;
+    margin-right: 50px;
+}
+
+.tv video {
+    float: right;
+    position: relative;
+    left: 457px;
+    height: 217px;
+    bottom: 168px;
+}
+
+
+.devices {
+    border-bottom: 8px solid #222;
+}
+.devices video {
+    position: relative;
+    bottom: 430px;
+    width: 390px;
+    left: 120px;
+}
+
+.devices h1, .devices p {
+    float: right;
+    margin-right: 100px;
+}
+
+.devices h1 {
+    position: relative;
+    bottom: 375px;
+    right: 90px;
+}
+
+
+
+
+.devices video {
+    position: absolute;
+    top: 1495px;
+}
+
+.devices p {
+    position: relative;
+    left: 565px;
+    bottom: 320px;
+}
+
+.kids {
+    padding-left: 100px;
+    border-bottom: 8px solid #222;
+}
+
+.kids p {
+    display: inline-block;
+    position: absolute;
+}
+
+.kids img {
+    position: relative;
+    left: 600px;
+}
+
+.downloads {
+    border-bottom: 8px solid #222;
+    height: 550px;
+}
+#mobile {
+    position: relative;
+}
+.stranger-things-container {
+    width: 400px;
+    border: 1px solid grey;
+    border-radius: .75em;
+    position: relative;
+    bottom: 100px;
+    z-index: 1;
+    background-color: #000;
+    position: relative;
+    left: 110px;
+}
+
+#stranger-things-logo {
+    height: 80px;
+}
+
+.stranger-things-container h3 {
+    vertical-align: top;
+    margin-top: 25px;
+    font-size: 15px;
+    margin-left: 10px;      
+}
+
+.stranger-things-container p, .stranger-things-container h3 {
+    display: inline-block;
+}
+
+.stranger-things-container p {
+    position: relative;
+    right: 120px;
+    bottom: 25px;
+    font-size: 13px;
+    color: #0071eb;
+    margin-left: 10px;
+    width: fit-content;
+}
+
+#download-gif {
+    position: absolute;
+    left: 230px;
+    top: 20px;
+    height: 50px;
+}
+
+.stranger-things-container img {
+    margin-left: 15px;
+}
+
+.downloads-description {
+    position: relative;
+    left: 700px;
+    width: 550px;
+    bottom: 350px;
+}
+
+footer {
+   text-align: center;
+}
+
+.asked-questions h2 {
+    text-align: left;
+    cursor: pointer;
+}
+.asked-questions h1 {
+    padding-top: 50px;
+    text-align: center;
+    font-size: 55px;
+}
+
+/*.asked-questions div h2 {
+    background-color: #303030;
+    font-weight: normal;
+    width: 400px;
+    padding: .8em 15em .8em 1.2em;
+    display: inline-block;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}*/
+
+.open-svg {
+    height: 45px;
+    background-color: #303030;
+    transform: rotate(-45deg);
+    fill: white;
+    cursor: pointer;
+    position: relative;
+    top: 17px;
+    right: 70px;
+}
+
+.asked-questions div p {
+    background-color: #303030;
+    font-weight: normal;
+    width: 728px;
+    font-size: 24px;
+    margin: 0 auto;
+    position: relative;
+    right: 25px;
+    text-align: left;
+    padding: 0px;
+    padding-left: 30px;
+}
+
+#ready-to-watch-footer {
+    margin-top: 60px;
+    font-size: 20px;
+}
+
+.question-section h2 {
+    background-color: #303030;
+    font-weight: normal;
+    width: 400px;
+    padding: .8em 15em .8em 1.2em;
+    display: inline-block;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+
+.asked-questions {
+    border-bottom: 8px solid #222;
+}
+
+.navigation-links, .navigation-links a, .langauge-selector{
+    color: #737373;
+    background-color: #000;
+    text-align: center;
+}
+
+.navigation-links h4 {
+    text-align: left;
+    padding-top: 50px;
+    padding-left: 200px;
+    font-weight: normal;
+}
+
+.link-container {
+    margin-top: 20px;
+    position: relative;
+    right: 150px;
+    display: inline-block;
+}
+
+.link-container ul {
+    list-style-type: none;
+}
+
+.link-container li {
+    margin-left: 60px;
+    margin-bottom: 10px;
+    text-align: left;
+}
+
+.link-container ul li a {
+    font-size: 15px;
+    text-decoration: none;
+    text-align: left;
+    
+}
+
+footer {
+    background-color: #000;
+}
+
+#langauge-selector-footer {
+    border-color: #333;
+    margin: 0 auto;
+    position: relative;
+    right: 410px;
+    top: 20px;
+    padding: 15px;
+}
+
+#netflix-canada {
+    background-color: #000;
+    color: #737373;
+    position: relative;
+    top: 50px;
+    padding-top: 50px;
+    text-align: left;
+    padding-left: 275px;
+    padding-bottom: 25px;
+}
+
+#login-netflix-img {
+    height: 175px;
+    margin-left: 50px;
+    position: relative;
+    bottom: 25px;
+    float: none;
+}
+
+#login-body {
+    background-image: url('../imgs/netflix-background.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#login-concord-gradient {
+    border: none;
+}
+
+.login-container {
+    text-align: center;
+    background-color: rgba(0,0,0,.75);
+    width: fit-content;
+    border-radius: 4px;
+    margin: 0 auto;
+    color: #b3b3b3;
+}
+
+.login-container h1 {
+    font-size: 35px;
+    text-align: left;
+    padding-top: 40px;
+    padding-left: 80px;
+    padding-bottom: 30px;
+    color: white;
+}
+
+.login-container form input {
+    background-color: #333;
+    padding: 16px 20px;
+    padding-right: 120px;
+    border: none;
+    border-radius: 4px;
+    font-size: 19px;
+    display: block;
+    margin: 15px auto;
+}
+
+::placeholder {
+    color: #8c8c8c;
+}
+
+#login-sign-in {
+    background-color: #e50914;
+    border: none;
+    color: white;
+    display: block;
+    margin: 0 auto;
+    font-weight: bold;
+    padding: 15px 150px;
+    border-radius: 4px;
+    font-size: 20px;
+}
+
+#need-help-link {
+    color: #b3b3b3;
+    position: relative;
+    left: 120px;
+    bottom: 20px;
+    text-decoration: none;
+    font-size: 15px;
+}
+
+.login-extras p, .login-extras a {
+    font-size: 18px;
+    text-align: left;
+    position: relative;
+    left: 100px;
+}
+
+#sign-up-now-login {
+    color: white;
+    text-decoration: none;
+    position: relative;
+    left: 0;
+}
+
+#page-protection-notice {
+    font-size: 14px;
+    width: 300px;
+    color: #b3b3b3;
+    padding-bottom: 120px;
+}
+
+#login-footer {
+    background-color: rgba(0,0,0,.75);
+
+}
+
+#nav-login {
+    background: none;
+}
+
+#nav-login a {
+    background-color: transparent;
+}
+
+#nav-login .link-container {
+    position: relative;
+    right: 200px;
+}
+
+#login-lang {
+    margin-top: 20px;
+    position: relative;
+    left: 200px;
+    padding: 15px;
+    border: 1px solid #333;
+}
+
+
+.email-required {
+    visibility: hidden;
+}
+
+
+.login-alerts {
+    color: #e87c03;
+    font-size: 16px;
+    position: relative;
+    visibility: hidden;
+}
+
+#login-alert1 {
+    bottom: 13px;
+    left: 100px;
+    text-align: left;
+}
+
+#login-alert2 {
+    left: 100px;
+    bottom: 50px;
+    width: 400px;
+    text-align: left;
+}
