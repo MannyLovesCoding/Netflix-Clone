@@ -32,7 +32,7 @@ function getStartedButton(inputElement) {
     }
 }
 
-if (location.href.includes('index')) {
+if (document.getElementById('emailinput1')) {
     for (let i = 1; i <= 7;i++) {
         document.getElementById(`answer${i}`).style.visibility = 'hidden';
         document.getElementById(`answer${i}`).innerHTML = ''; 
